@@ -1,3 +1,41 @@
 /*
  * Estilos de tu proyecto
  */
+ body{
+ 	margin:0;
+ }
+ .menuUser{
+ 	display: inline-block;
+ 	width: 321px;
+ 	height: 662px;
+ 	border-right: 0.5px solid #CFCECE;
+
+ }
+ h2{
+ 	padding: 1em 4em;
+ 	background: #E3E1E1;
+ 	margin: 0;
+ 	border-top: 0.5px solid #CFCECE; 
+ }
+
+ .logo{
+ 	width: 200px;
+ 	padding: 1.5em 3.8em;
+ }
+ ul{
+ 	list-style: none;
+ }
+
+ a{
+ 	text-decoration: none;
+ 	font-family: "Roboto";
+ 	font-size: 16px;
+ 	color: #3F3E3E;
+ }
+ li{
+ 	line-height: 30px;
+ }
+
+ .menuUser a:nth-of-type(2, 3){
+	margin-left: 20px;
+ }
