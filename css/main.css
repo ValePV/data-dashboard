@@ -36,6 +36,16 @@
  	line-height: 30px;
  }
 
- .menuUser a:nth-of-type(2, 3){
+ .Second{
 	margin-left: 20px;
+ }
+ .Tercer{
+ 	margin-top: 20px;
+ }
+ .exit{
+ 	margin-top:290px;
+ 	padding-left: 50px;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	outline: 1px solid green;
  }
