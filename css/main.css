@@ -4,7 +4,7 @@
  body{
  	margin:0;
  }
- .menuUser{
+ #menuUser{
  	display: inline-block;
  	width: 321px;
  	height: 662px;
@@ -25,7 +25,9 @@
  ul{
  	list-style: none;
  }
-
+ i{
+ 	margin-right: 10px;
+ }
  a{
  	text-decoration: none;
  	font-family: "Roboto";
@@ -36,8 +38,35 @@
  	line-height: 30px;
  }
 
- .Second{
+ .second{
 	margin-left: 20px;
+ }
+ .sedes{
+ 	display: inline-block;
+ }
+ #btn{
+ 	border:none;
+ 	background: white;
+ }
+ #list1:hover{
+ 	color: #1da1f2;
+	cursor: pointer;
+ 	outline: 1px solid green;
+ }
+ #list2:hover{
+ 	color: #1da1f2;
+	cursor: pointer;
+ 	outline: 1px solid green;
+ }
+ #list3:hover{
+ 	color: #1da1f2;
+	cursor: pointer;
+ 	outline: 1px solid green;
+ }
+ #list4:hover{
+ 	color: #1da1f2;
+	cursor: pointer;
+ 	outline: 1px solid green;
  }
  .Tercer{
  	margin-top: 20px;
@@ -45,7 +74,7 @@
  .exit{
  	margin-top:290px;
  	padding-left: 50px;
- 	padding-top: 15px;
- 	padding-bottom: 15px;
+ 	padding-top: 18px;
+ 	padding-bottom: 18px;
  	outline: 1px solid green;
  }
