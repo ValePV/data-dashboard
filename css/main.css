@@ -4,14 +4,18 @@
  body{
  	margin:0;
  }
+
  #menuUser{
  	display: inline-block;
  	width: 321px;
- 	height: 662px;
+ 	
  	border-right: 0.5px solid #CFCECE;
+ 	/*position: fixed;*/
 
  }
+
  h2{
+ 	font-family: "Roboto";
  	padding: 1em 4em;
  	background: #E3E1E1;
  	margin: 0;
@@ -22,59 +26,113 @@
  	width: 200px;
  	padding: 1.5em 3.8em;
  }
+
  ul{
  	list-style: none;
+ 	padding:0;
+ 	margin: 0;
  }
+
  i{
  	margin-right: 10px;
+
  }
- a{
+
+  a{
  	text-decoration: none;
  	font-family: "Roboto";
  	font-size: 16px;
  	color: #3F3E3E;
  }
+
+ a:hover{
+ 	color: #ffc107;
+ 	cursor: pointer;
+	background: #e0e0e0;
+ 	
+ }
+
  li{
  	line-height: 30px;
+ 	text-decoration: none;
+ 	font-family: "Roboto";
+ 	font-size: 16px;
+ 	color: #3F3E3E;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	padding-left: 15px;
+
+ }
+
+ li:hover{
+ 	color: #ffc107;
+ 	cursor: pointer;
+	background: #e0e0e0;
+ 	
  }
 
  .second{
-	margin-left: 20px;
+	padding: 0;
  }
- .sedes{
- 	display: inline-block;
+ 
+ #sedes{
+ 	padding-left: 70px;
  }
+ 
  #btn{
  	border:none;
  	background: white;
+ 	text-decoration: none;
+ 	font-family: "Roboto";
+ 	font-size: 16px;
+ 	color: #3F3E3E;
+ 	padding-left:30px;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	padding-right: 189px;
  }
- #list1:hover{
- 	color: #1da1f2;
+
+ #btn:hover{
+ 	color: #ffc107;
+	background: #e0e0e0;
 	cursor: pointer;
- 	outline: 1px solid green;
  }
- #list2:hover{
- 	color: #1da1f2;
-	cursor: pointer;
- 	outline: 1px solid green;
+
+ span li{
+ 	padding-left:30px;
  }
- #list3:hover{
- 	color: #1da1f2;
-	cursor: pointer;
- 	outline: 1px solid green;
+
+ #ampm{
+ 	padding-left: 30px;
  }
- #list4:hover{
- 	color: #1da1f2;
-	cursor: pointer;
- 	outline: 1px solid green;
+
+ li .fa-angle-up{
+ 	padding-left: 100px;
+ 	font-size: 25px;
+ 	color: #3F3E3E;
  }
- .Tercer{
- 	margin-top: 20px;
+
+ li .fa-angle-up:hover{
+ 	color: #ffc107;
  }
+
+ 
+ .hidden{
+	display: none;
+	color: #1DA1F2;
+}
+ 
  .exit{
  	margin-top:290px;
  	padding-left: 50px;
  	padding-top: 18px;
  	padding-bottom: 18px;
- 	outline: 1px solid green;
+ 	border-top: 0.5px solid #CFCECE;
+
+ 	
+ }
+
+  .exit:hover{
+	background: #e0e0e0;
+	cursor: pointer;
  }
