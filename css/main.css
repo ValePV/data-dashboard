@@ -8,8 +8,8 @@
  #menuUser{
  	display: inline-block;
  	width: 321px;
- 	
  	border-right: 0.5px solid #CFCECE;
+ 	float: left;
  	/*position: fixed;*/
 
  }
@@ -116,11 +116,11 @@
  	color: #ffc107;
  }
 
- 
+/* 
  .hidden{
 	display: none;
 	color: #1DA1F2;
-}
+}*/
  
  .exit{
  	margin-top:290px;
@@ -128,7 +128,6 @@
  	padding-top: 18px;
  	padding-bottom: 18px;
  	border-top: 0.5px solid #CFCECE;
-
  	
  }
 
@@ -136,3 +135,58 @@
 	background: #e0e0e0;
 	cursor: pointer;
  }
+
+#nav{
+	width: 1027px;
+	background: #ffc107;
+	margin-left: 322px;
+}
+
+#nav .tab{
+	display: inline-block;
+	margin: 0;
+	padding: 20px 128px;
+	font-family: "Roboto";
+	font-size: 20px;
+ 	border:none;
+ 	background: #ffc107;
+}
+
+#nav .tab:hover{
+	cursor: pointer;
+	color: white;
+	background: #e0e0e0;
+}
+
+#nav .tab:focus{
+	cursor: pointer;
+	color: #ffc107;
+	background: #e0e0e0;
+}
+
+section{
+	width: 1027px;
+	float: left;
+	
+}
+img{
+	width: 800px;
+}
+.selec{
+	width: 1027px;
+	height: 30px;
+	background: #e0e0e0;
+	font-family: "Roboto";
+	padding-top: 20px;
+}
+
+.flash1{
+	margin-left: 550px;
+}
+
+.flash{
+	margin-left: 30px;
+}
+.flash1:focus{
+	color: white;
+}

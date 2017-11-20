@@ -23,13 +23,41 @@
         <a href="p"><i class="fa fa-sign-out" aria-hidden="true"></i> Cerrar Session</a>
       </div>
     </div>
-    <nav>
-      <ul>
-        <li><button type="button" name="button" data-tabSeleccionado = "tabOverview" class="tab">Overview</button></li>
-        <li><button type="button" name="button" data-tabSeleccionado = "tabStudents" class="tab">Students</button></li>
-        <li><button type="button" name="button" data-tabSeleccionado = "tabTeachers" class="tab">Teachers</button></li>
-      </ul>
+    <nav id="nav">
+      
+        <span><button type="button" name="button" data-tab-seleccionado = "tabOverview" class="tab">Overview</button></span>
+        <span><button type="button" name="button" data-tab-seleccionado = "tabStudents" class="tab">Students</button></span>
+        <span><button type="button" name="button" data-tab-seleccionado = "tabTeachers" class="tab">Teachers</button></span>
+      
     </nav>
+    <section id="overview">
+      <div class="selec">
+        <a class="flash1" href="#general">GENERAL</a>
+        <a class="flash" href="#tecnico">TÉCNICO</a>
+        <a class="flash" href="#hse">HSE</a>
+        <a class="flash" href="#satis">NN</a>
+      </div>
+      <div id="general">
+        
+      </div>
+      <div id="tecnico">
+        
+      </div>
+      <div id="hse">
+        
+      </div>
+      <div id="satis">
+        
+      </div>
+
+    </section>
+    <section id="student">
+      <img class="stu" src="assets/images/student.png">
+    </section>
+    <section id="teacher">
+      <img class="tea" src="assets/images/teachers.png">
+      
+    </section>
 		<!-- Base de datos -->
 		<script src="./js/data.js"></script>
 		<!-- Aquí va tus archivos JS -->

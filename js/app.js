@@ -46,7 +46,8 @@ function add(){
 	cedes.appendChild(contenedor_sedes);
 
 	icon.addEventListener("click", function(){
-		contenedor_sedes.classList.toggle("hidden");
+		contenedor_sedes.style.display="none";
+		/*contenedor_sedes.classList.toggle("hidden");*/
 	})
 
 	list1.addEventListener("click", function(){
@@ -84,7 +85,8 @@ function add(){
 	subList1.appendChild(lim);
 
 	icon1.addEventListener("click", function(){
-		subList1.classList.toggle("hidden");
+		lim.style.display="none";
+		/*subList1.classList.toggle("hidden");*/
 	})
 
 	
@@ -123,7 +125,8 @@ function add(){
 	subList2.appendChild(are);
 
 	icon2.addEventListener("click", function(){
-		subList2.classList.toggle("hidden");
+		are.style.display="none";
+		/*subList2.classList.toggle("hidden");*/
 	})
 })
 	list3.addEventListener("click", function(){
@@ -180,7 +183,8 @@ function add(){
 	})
 
 	icon3.addEventListener("click", function(){
-		subList3.classList.toggle("hidden");
+		stgo.style.display="none";
+		/*subList3.classList.toggle("hidden");*/
 	})
 
 })
@@ -219,21 +223,55 @@ function add(){
 	subList4.appendChild(mex);
 
 	icon4.addEventListener("click", function(){
-		subList4.classList.toggle("hidden");
+		mex.style.display="none";
+		/*subList4.classList.toggle("hidden");*/
 	})
 })
 }
 
-var mostrarOcultar = function(){
-	console.log("hola alumnas");
+var mostrarOcultar = function(e){
+	var tabSeleccionado = e.target.dataset.tabSeleccionado;
+	var overvi = document.getElementById("overview");
+	var stud = document.getElementById("student");
+	var teach = document.getElementById("teacher");
+	if (tabSeleccionado === "tabOverview"){
+		//ocultar student y teacher
+		stud.style.display = "none";
+		teach.style.display = "none";
+		//mostrar overview
+		overvi.style.display = "block";
+	} else if (tabSeleccionado === "tabStudents") {
+		//ocultar student y teacher
+		overvi.style.display = "none";
+		teach.style.display = "none";
+		//mostrar overview
+		stud.style.display = "block";
+	} else if (tabSeleccionado === "tabTeachers"){
+		//ocultar student y teacher
+		stud.style.display = "none";
+		overvi.style.display = "none";
+		//mostrar overview
+		teach.style.display = "block";
+	}
 }
 
 var cargarPagina = function(){
+	var overvi = document.getElementById("overview");
+	var stud = document.getElementById("student");
+	var teach = document.getElementById("teacher");
+	overvi.style.display = "none";
+	stud.style.display = "none";
+	teach.style.display = "none";
+
 	var elementosTab = document.getElementsByClassName("tab");
 	for(var i = 0; i< elementosTab.length; i++){
 		elementosTab[i].addEventListener("click", mostrarOcultar);
 	}
+
 }
+
+
+
 
 cargarPagina();
 // Puedes hacer uso de la base de datos a través de la variable `data`
