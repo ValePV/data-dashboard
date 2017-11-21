@@ -190,3 +190,8 @@ img{
 .flash1:focus{
 	color: white;
 }
+
+#line-chart{
+	width: 900px;
+	margin-left: 30px;
+}

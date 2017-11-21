@@ -39,7 +39,62 @@
         <a class="flash" href="#satis">NN</a>
       </div>
       <div id="general">
-        
+        <div class="container">
+          <canvas id="line-chart"></canvas>
+        </div>
+        <script>
+          new Chart(document.getElementById("line-chart"), {
+              type: 'line',
+              data: {
+              labels: ['Sprint I', 'Sprint II', 'Sprint III', 'Sprint IV'],
+              datasets: [{ 
+              data: [53, 51,48,45],
+              label: "Alumnas Presentes",
+              borderColor: "#3e95cd",
+              fill: false
+              }, { 
+              data: [2,5,5,7],
+              label: "Deserción",
+              borderColor: "#8e5ea2",
+              fill: false
+              }, { 
+              data: [60,67,73,80],
+              label: "Promedio de Metas",
+              borderColor: "#3cba9f",
+              fill: false
+              }, { 
+              data: [66,70,73,82],
+              label: "Promedio Sprint",
+              borderColor: "#e8c3b9",
+              fill: false
+              }, { 
+              data: [70,78,80,90],
+              label: "Promedio HSE",
+              borderColor: "#c45850",
+              fill: false
+              },{
+              data: [80,75,90,95],
+              label: "Satisfacción",
+              borderColor: "#C440B7",
+              fill: false
+              }
+              ]
+
+              },
+              options: {
+              title: {
+              display: true,
+              text: 'Estadística General',
+              fontSize:20
+              },legend:{
+              display:true,
+              position:"right",
+              },
+              responsive: false
+              }
+  
+              });
+        </script>
       </div>
       <div id="tecnico">
         
@@ -63,7 +118,7 @@
 
     <!--grafico 1  -->
 
-     <div class="container">
+   <!--  <div class="container">
     <canvas id="line-chart" width="425" height="225"></canvas>
   </div>
 
@@ -119,7 +174,7 @@
       }
   
 });
-  </script>
+  </script> -->
 
 <!--cierre grafico 1  -->
 
