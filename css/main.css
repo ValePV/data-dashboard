@@ -191,7 +191,17 @@ img{
 	color: white;
 }
 
-#line-chart{
-	width: 900px;
-	margin-left: 30px;
+#overview{
+	background: #e0e0e0;
 }
+a .fa-undo{
+	font-size: 30px;
+	margin-left: 900px;
+}
+
+.graf{
+	width: 800px;
+	margin: 40px 100px;
+}
+
+
