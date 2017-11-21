@@ -197,11 +197,79 @@ img{
 a .fa-undo{
 	font-size: 30px;
 	margin-left: 900px;
+	margin-top: 570px;
 }
 
-.graf{
+/*.graf{
 	width: 800px;
-	margin: 40px 100px;
+	
+}*/
+
+#general{
+	background-image: url(../assets/images/general.png);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	width: 1000px;
+  	height: 555px;
+  	margin-left: 20px;
+  	
 }
 
+#tecnico{
+	background-image: url(../assets/images/tecnico.png);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	width: 1000px;
+  	height: 600px;
+  	margin-left: 20px;
+  	margin-top: 40px;
+  	
+}
+
+#tecnico a .fa-undo{
+	font-size: 30px;
+	margin-left: 900px;
+	margin-top: 470px;
+}
+
+#hse{
+	background-image: url(../assets/images/hseskill.png);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	width: 1000px;
+  	height: 650px;
+  	margin-left: 20px;
+  	margin-top: 40px;
+}
+
+#hse a .fa-undo{
+	font-size: 30px;
+	margin-left: 790px;
+	margin-top: 510px;
+}
+
+#satis{
+	background-image: url(../assets/images/satisfaccion.png);
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	width: 1000px;
+  	height: 690px;
+  	margin-left: 10px;
+  	/*margin-top: 20px;*/
+}
+
+#satis a .fa-undo{
+	font-size: 30px;
+	margin-left: 900px;
+	margin-top: 630px;
+}
+
+select{
+	width: 200px;
+	margin-left: 500px;
+	margin-top: 80px;
+	font-family: "Roboto";
+	padding:5px;
+
+}
 
